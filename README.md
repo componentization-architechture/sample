@@ -1,2 +1,2 @@
 # network
-componentization architechture sample app.
+The network component for componentization architechture.
