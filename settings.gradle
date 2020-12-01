@@ -1,3 +1,5 @@
-include ':log'
 include ':app'
+include ':log'
+include ':gradle-plugin:common-dependencies'
+
 rootProject.name = "sample"

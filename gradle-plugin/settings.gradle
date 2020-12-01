@@ -1,0 +1,3 @@
+include ':common-dependencies'
+include ':app'
+rootProject.name = "componentization-architechture-gradle-plugin"
