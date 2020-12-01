@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.komamj.common-dependencies-plugin</groupId>
+  <artifactId>com.github.komamj.common-dependencies-plugin.gradle.plugin</artifactId>
+  <version>1.0.0-snapshot</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20201201.013207</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20201201013207</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-snapshot</value>
+        <updated>20201201013207</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

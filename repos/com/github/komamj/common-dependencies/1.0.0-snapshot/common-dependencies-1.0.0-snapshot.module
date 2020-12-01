@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.komamj",
+    "module": "common-dependencies",
+    "version": "1.0.0-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7outd3so3zayziq76bmztoyniu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "common-dependencies-1.0.0-snapshot.jar",
+          "url": "common-dependencies-1.0.0-snapshot.jar",
+          "size": 20074,
+          "sha512": "554ecc5d2c4e5da034ee5d31570e894be1c48e45d68c1c5d7305b8766c28e48d3c0286b7e354d5d830e59238ab171dc92be9f84f01713e5974c30d242f370e27",
+          "sha256": "e645dd6a267059a95d136cb4e74c9fa41226ee8ecb74bc61a56f71dd0a25f711",
+          "sha1": "370fc92cf7d3552bd86bdca91eab658af11035e4",
+          "md5": "1e48ad17a363111946aae2e1b55b234b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-dependencies-1.0.0-snapshot.jar",
+          "url": "common-dependencies-1.0.0-snapshot.jar",
+          "size": 20074,
+          "sha512": "554ecc5d2c4e5da034ee5d31570e894be1c48e45d68c1c5d7305b8766c28e48d3c0286b7e354d5d830e59238ab171dc92be9f84f01713e5974c30d242f370e27",
+          "sha256": "e645dd6a267059a95d136cb4e74c9fa41226ee8ecb74bc61a56f71dd0a25f711",
+          "sha1": "370fc92cf7d3552bd86bdca91eab658af11035e4",
+          "md5": "1e48ad17a363111946aae2e1b55b234b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.komamj.common-dependencies-plugin</groupId>
+  <artifactId>com.github.komamj.common-dependencies-plugin.gradle.plugin</artifactId>
+  <versioning>
+    <latest>1.0.0-snapshot</latest>
+    <versions>
+      <version>1.0.0-snapshot</version>
+    </versions>
+    <lastUpdated>20201201013207</lastUpdated>
+  </versioning>
+</metadata>

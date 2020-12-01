@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.komamj</groupId>
+  <artifactId>common-dependencies</artifactId>
+  <versioning>
+    <latest>1.0.0-snapshot</latest>
+    <versions>
+      <version>1.0.0-snapshot</version>
+    </versions>
+    <lastUpdated>20201201013207</lastUpdated>
+  </versioning>
+</metadata>

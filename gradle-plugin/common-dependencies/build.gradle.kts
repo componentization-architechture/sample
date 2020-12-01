@@ -4,16 +4,16 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.koma.componentization"
+group = "com.github.komamj"
 version = "1.0.0-snapshot"
 
 gradlePlugin {
     plugins {
         create("commonDependenciesPlugin") {
-            id = "com.koma.componentization.common-dependencies-plugin"
+            id = "com.github.komamj.common-dependencies-plugin"
             displayName = "commonDependenciesPlugin"
-            description = "The componentization of commonDependenciesPlugin."
-            implementationClass = "com.github.komamj.dependencies.plugin.CommonDependencies"
+            description = "The commonDependenciesPlugin for componentization architechture."
+            implementationClass = "com.github.komamj.plugin.CommonDependencies"
         }
     }
 }
@@ -32,7 +32,7 @@ repositories {
 publishing {
     repositories {
         maven {
-            url = uri("../repos")
+            url = uri("../../repos")
         }
     }
 }
