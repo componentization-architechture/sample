@@ -30,7 +30,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 class CommonDependencies : Plugin<Project> {
     override fun apply(target: Project) {
-        println("CommonDependencies plugin apply.")
+        println("CommonDependencies plugin apply...")
 
         target.plugins.apply(KOTLIN_ANDROID_PLUGIN)
 

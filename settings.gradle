@@ -1,3 +1,4 @@
+include ':gradle-plugin:run-alone'
 include ':app'
 include ':log'
 include ':gradle-plugin:common-dependencies'

@@ -10,10 +10,10 @@ version = "1.0.0-snapshot"
 gradlePlugin {
     plugins {
         create("commonDependenciesPlugin") {
-            id = "com.github.komamj.common-dependencies-plugin"
-            displayName = "commonDependenciesPlugin"
-            description = "The common dependencies plugin for componentization architechture."
-            implementationClass = "com.github.komamj.plugin.CommonDependencies"
+            id = "com.github.komamj.run-alone-plugin"
+            displayName = "runAlonePlugin"
+            description = "The run alone plugin for componentization architechture."
+            implementationClass = "com.github.komamj.plugin.RunAlone"
         }
     }
 }

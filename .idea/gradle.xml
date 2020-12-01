@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/gradle-plugin" />
             <option value="$PROJECT_DIR$/gradle-plugin/common-dependencies" />
+            <option value="$PROJECT_DIR$/gradle-plugin/run-alone" />
             <option value="$PROJECT_DIR$/log" />
           </set>
         </option>
