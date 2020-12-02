@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.koma.router
+package com.github.komamj.router
 
 import android.app.Activity
 import android.content.Context
