@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-package com.koma.log
+package com.github.komamj.log
 
+import com.koma.log.BuildConfig
 import timber.log.Timber
 
 object Log {

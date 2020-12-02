@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.koma.log
+package com.github.komamj.log
 
 import android.util.Log
 import timber.log.Timber
