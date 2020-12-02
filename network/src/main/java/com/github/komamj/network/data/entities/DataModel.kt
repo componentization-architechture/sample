@@ -14,16 +14,13 @@
  * limitations under the License.
  */
 
-package com.github.komamj.log
+package com.github.komamj.network.data.entities
 
-import timber.log.Timber
+import com.google.gson.annotations.SerializedName
 
-object Log {
-    fun init() {
-        if (BuildConfig.DEBUG) {
-            Timber.plant(DebugTree())
-        } else {
-            Timber.plant(ReleaseTree())
-        }
-    }
-}
+data class DataModel<T>(
+    @SerializedName("page")
+    val page: Int,
+    @SerializedName("results")
+    val data: List<T>?
+)

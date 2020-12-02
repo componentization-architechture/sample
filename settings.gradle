@@ -1,6 +1,7 @@
-include ':gradle-plugin:run-alone'
-include ':app'
-include ':log'
 include ':gradle-plugin:common-dependencies'
+include ':gradle-plugin:run-alone'
+include ':network'
+include ':log'
+include ':app'
 
 rootProject.name = "sample"

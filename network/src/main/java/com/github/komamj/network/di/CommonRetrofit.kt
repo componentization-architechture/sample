@@ -14,16 +14,10 @@
  * limitations under the License.
  */
 
-package com.github.komamj.log
+package com.github.komamj.network.di
 
-import timber.log.Timber
+import javax.inject.Qualifier
 
-object Log {
-    fun init() {
-        if (BuildConfig.DEBUG) {
-            Timber.plant(DebugTree())
-        } else {
-            Timber.plant(ReleaseTree())
-        }
-    }
-}
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class CommonRetrofit
