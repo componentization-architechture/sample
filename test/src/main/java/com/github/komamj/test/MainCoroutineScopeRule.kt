@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package package com.github.komamj.test
+package com.github.komamj.test
 
 import kotlin.coroutines.ContinuationInterceptor
 import kotlinx.coroutines.CoroutineDispatcher
