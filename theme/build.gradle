@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.komamj.common-dependencies-plugin'
+
+android {
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    api "com.google.android.material:material:$materialVersion"
+}
