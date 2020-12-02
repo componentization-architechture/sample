@@ -21,7 +21,7 @@ import android.graphics.drawable.ColorDrawable
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.koma.image.GlideApp
+import com.github.komamj.image.GlideApp
 
 private const val IMAGE_URL = "http://image.tmdb.org/t/p/w342"
 

@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.komamj.common-dependencies-plugin'
+apply plugin: 'kotlin-kapt'
+
+kapt {
+    arguments {
+        arg('eventBusIndex', 'com.github.komamj.eventbus.EventBusIndex')
+    }
+}
+
+android {
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+
+    api "org.greenrobot:eventbus:$eventbusVersion"
+    kapt "org.greenrobot:eventbus-annotation-processor:$eventbusVersion"
+
+    implementation project(':log')
+}

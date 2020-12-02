@@ -20,10 +20,10 @@ import android.app.Application
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
 import android.os.StrictMode.VmPolicy
-import com.koma.apm.Apm
-import com.koma.common.BuildConfig
-import com.koma.log.Log
-import com.koma.router.Router
+import com.github.komamj.apm.Apm
+import com.github.komamj.common.BuildConfig
+import com.github.komamj.log.Log
+import com.github.komamj.router.Router
 
 open class BaseApplication : Application() {
     override fun onCreate() {
@@ -38,9 +38,7 @@ open class BaseApplication : Application() {
         }
 
         Log.init()
-
         Apm.init()
-
         Router.init(this)
     }
 
