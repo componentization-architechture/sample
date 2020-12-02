@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.komamj.common-dependencies-plugin'
+apply plugin: 'kotlin-kapt'
+
+android {
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+}
+
+dependencies {
+    api "com.github.bumptech.glide:glide:$glideVersion"
+    kapt "com.github.bumptech.glide:compiler:$glideVersion"
+}

@@ -26,7 +26,7 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
 
     api project(':theme')
-    // api project(':image')
+    api project(':image')
     api project(':network')
     api project(':router')
     //api project(':eventbus')

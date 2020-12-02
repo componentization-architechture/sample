@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.komamj.common-dependencies-plugin'
+apply plugin: 'kotlin-kapt'
+
+android {
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakcanaryVersion"
+
+    implementation project(':log')
+}
