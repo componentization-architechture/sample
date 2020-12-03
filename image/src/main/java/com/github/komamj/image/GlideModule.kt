@@ -31,4 +31,8 @@ class GlideModule : AppGlideModule() {
             builder.setLogLevel(Log.DEBUG)
         }
     }
+
+    override fun isManifestParsingEnabled(): Boolean {
+        return false
+    }
 }
