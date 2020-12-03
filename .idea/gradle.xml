@@ -21,12 +21,16 @@
             <option value="$PROJECT_DIR$/gradle-plugin/run-alone" />
             <option value="$PROJECT_DIR$/image" />
             <option value="$PROJECT_DIR$/log" />
+            <option value="$PROJECT_DIR$/movie" />
             <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/people" />
             <option value="$PROJECT_DIR$/permission" />
             <option value="$PROJECT_DIR$/router" />
             <option value="$PROJECT_DIR$/storage" />
             <option value="$PROJECT_DIR$/test" />
             <option value="$PROJECT_DIR$/theme" />
+            <option value="$PROJECT_DIR$/tv" />
+            <option value="$PROJECT_DIR$/usecase" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

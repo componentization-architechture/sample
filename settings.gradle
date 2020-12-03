@@ -11,7 +11,11 @@ include ':database'
 include ':router'
 include ':permission'
 include ':theme'
+include ':usecase'
 include ':common'
+include ':movie'
+include ':tv'
+include ':people'
 include ':app'
 
 rootProject.name = "sample"
