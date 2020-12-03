@@ -34,6 +34,10 @@ class Navigator {
         postcard = ARouter.getInstance().build(uri)
     }
 
+    fun setUri(uri: Uri) = apply {
+        this.postcard.uri = uri
+    }
+
     fun withString(key: String?, value: String?) = apply {
         this.postcard.withString(key, value)
     }
